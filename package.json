@@ -1,0 +1,20 @@
+{
+  "name": "av-villas-backend",
+  "version": "1.0.0",
+  "description": "proyecto ciclo 4a",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "banco",
+    "transferencia",
+    "virtual"
+  ],
+  "author": "Equipo 1",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
