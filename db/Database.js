@@ -1,10 +1,11 @@
 const mongoose = require("mongoose");
 
-const usuarioDB = process.env.USUARIODB
-const passwordDB = process.env.PASSWORDDB
-const nombreDB = process.env.NOMBREDB
+const usuarioDB = 'equipo1'
+const passwordDB = 'MisionTic2020'
+const nombreDB = 'DataBase'
 
-const uri_bd = `mongodb+srv://${usuarioDB}:${passwordDB}@servidor.5mzjh.mongodb.net/${nombreDB}?retryWrites=true&w=majority`
+
+const uri_bd = `mongodb+srv://${usuarioDB}:${passwordDB}@proyectoavvillas.8pohc.mongodb.net/${nombreDB}?retryWrites=true&w=majority`
 
 mongoose
   .connect(uri_bd)
@@ -14,3 +15,4 @@ mongoose
   });
 
 module.exports = mongoose
+
