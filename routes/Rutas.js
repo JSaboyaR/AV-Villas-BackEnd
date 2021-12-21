@@ -1,6 +1,6 @@
 const express = require('express')
 
-const Usuarios = require('../models/Usurios')
+const Usuarios = require('../models/Usuarios')
 const Cuentas = require('../models/Cuentas')
 const Quejas = require('../models/Quejas')
 const Solicitudes = require('../models/Solicitudes')
