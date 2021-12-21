@@ -10,7 +10,7 @@ rutas.post('/crearUsuario', async (req, res) => {
     let datosusuario = req.body
 
     let salt = await bcrypt.genSalt(10)
-    let password = await bcrypt.hash(datosusuario.pass, salt)
+    let password = await bcrypt.hash(datosusuario.password, salt)
 
     datosusuario = {
         ...datosusuario,
